@@ -1,0 +1,12 @@
+Console.WriteLine("Olá Luiz, Por Favor Digite Sua Senha:");
+string Senha = Console.ReadLine();
+
+
+if (senha == Senha)
+{
+    Console.WriteLine("Senha Esta Correta, Acesso Liberado Luiz");
+}
+else 
+{
+    Console.WriteLine("Senha Incorreta Luiz, Por Favor Tente Novamente");
+}
