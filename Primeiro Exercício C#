@@ -1,0 +1,22 @@
+Console.WriteLine("Luiz e João Estão em Duvida de Quem Tem a Conta de Luz Mais Cara, Que Ajudar?");
+Console.ReadLine();
+
+Console.WriteLine("Qual Foi o Valor da Conta de Luz do Luiz?");
+decimal conta1 = Convert.ToDecimal(Console.ReadLine());
+
+Console.WriteLine("Qual Foi o Valor da Conta de Luz do João?");
+decimal conta2 = Convert.ToDecimal(Console.ReadLine());
+
+
+if (conta1 > conta2)
+{
+    Console.WriteLine("Conta do Luiz Mais Cara");
+}
+else if (conta1 < conta2)
+{
+    Console.WriteLine("Conta do João Mais Cara");
+}
+else
+{
+    
+}
